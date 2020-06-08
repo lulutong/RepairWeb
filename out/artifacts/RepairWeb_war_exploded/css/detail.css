@@ -1,0 +1,151 @@
+body{
+    background-color: #fff;
+    background-image:
+            linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+            linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+
+img {
+    height: 293px;
+    width: 310px;
+    /*float: right;*/
+    /*padding-top: 90px;*/
+    /*padding-right: 130px;*/
+}
+
+body html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.titleTop {
+    padding-top: 10px;
+    padding-left: 90px;
+    letter-spacing: 23px;
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: oblique;
+    color: #a3a0b1;
+}
+
+.infoStyle {
+    float: right;
+    padding-right:105px;
+    padding-top : 50px;
+    /*padding-left: 750px;*/
+
+    /*background: white;*/
+    /*background-image: linear-gradient(90deg, rgba(200, 0, 0, .5) 50%, transparent 0), linear-gradient(rgba(200, 0, 0, .5) 50%, transparent 0);*/
+    /*background-size: 30px 30px;*/
+
+}
+.compName{
+    margin-top: 130px;
+    font-size: 35px;
+    color: #3b5877;
+    font-family: Bahnschrift;
+
+}
+.type{
+    font-size: 20px;
+    color: rgba(126, 126, 145, 0.71);
+    margin-top: 50px;
+    letter-spacing: 7px;
+    font-family: FangSong;
+    text-decoration: overline;
+}
+
+.call{
+    width: 20px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 20px;
+    margin-left: 70px;
+    color: rgba(126, 126, 145, 0.71);
+    margin-top: 50px;
+    letter-spacing: 7px;
+    font-family: FangSong;
+    border: #9c0001;
+    border-style: dotted;
+}
+.email{
+    font-size: 30px;
+    margin-left: 70px;
+    color: rgba(0, 127, 186, 0.71);
+    margin-top: 70px;
+    font-family: FangSong;
+}
+.phone{
+    font-size: 30px;
+    margin-left: 70px;
+    color: rgba(0, 147, 255, 0.71);
+    margin-top: 50px;
+    font-family: FangSong;
+}
+.timework{
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgba(61, 28, 60, 0.71);
+    /*margin-top: 50px;*/
+    /*letter-spacing: 7px;*/
+    font-family: FangSong;
+    border: rgba(156, 0, 37, 0.54);
+    border-width: thin;
+    border-style: solid;
+}
+.addr{
+    /*margin: 0 auto;*/
+    line-height: 24px;
+    font-size: 25px;
+    margin-left: 100px;
+    color: rgba(61, 51, 0, 0.51);
+    margin-top: 30px;
+    /*letter-spacing: 7px;*/
+    font-family: FangSong;
+}
+.proinfo{
+    font-weight: lighter;
+    float: left;
+    padding-left: 50px;
+    text-indent: 2em;
+    padding-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(90, 99, 105, 0.75);
+    letter-spacing: 3px;
+}
+
+/*导航栏*/
+.menu{
+    position: relative;
+    float: top;
+    margin: 0 50px 0 auto;
+}
+.menu li {
+    float: right;
+    /*width: 80px;*/
+    list-style: none;
+    padding: 0 20px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;;
+    border: 0px solid #76a2c6;
+}
+.menu li a {
+    text-decoration: none;
+    color: #CCC;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
+}
+.menu a:hover, .menu li:hover a {
+    color: rgba(102, 144, 177, 0.65);
+    font-size: 25px;
+}
+
+
